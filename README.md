@@ -1,1 +1,1 @@
-htpps://netebla.github.io/mesto-production/
+https://netebla.github.io/mesto-production/
