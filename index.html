@@ -8,7 +8,7 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Mesto</title>
-    <script type="module" crossorigin src="./assets/index-CoaHnHJb.js"></script>
+    <script type="module" crossorigin src="./assets/index-BTkd6_JO.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-q1CJXbHA.css">
   </head>
   <body class="page">
@@ -22,14 +22,11 @@
       </header>
       <main class="content">
         <section class="profile page__section">
-          <div
-            class="profile__image"
-            style="background-image: url('./assets/avatar-jDl9RI_U.jpg')"
-          ></div>
+          <div class="profile__image"></div>
           <div class="profile__info">
-            <h1 class="profile__title">Жак-Ив Кусто</h1>
+            <h1 class="profile__title"></h1>
             <button class="profile__edit-button" type="button"></button>
-            <p class="profile__description">Исследователь океана</p>
+            <p class="profile__description"></p>
           </div>
           <button class="profile__add-button" type="button"></button>
         </section>
@@ -45,7 +42,7 @@
         <div class="popup__content">
           <button type="button" class="popup__close"></button>
           <h3 class="popup__title">Редактировать профиль</h3>
-          <form class="popup__form" name="edit-profile">
+          <form class="popup__form" name="edit-profile" novalidate>
             <label class="popup__label">
               <input
                 type="text"
@@ -76,7 +73,8 @@
             </label>
             <button
               type="submit"
-              class="button popup__button"
+              class="button popup__button popup__button_disabled"
+              disabled
             >
               Сохранить
             </button>
@@ -88,7 +86,7 @@
         <div class="popup__content">
           <button type="button" class="popup__close"></button>
           <h3 class="popup__title">Новое место</h3>
-          <form class="popup__form" name="new-place">
+          <form class="popup__form" name="new-place" novalidate>
             <label class="popup__label">
               <input
                 type="text"
@@ -119,7 +117,8 @@
             </label>
             <button
               type="submit"
-              class="button popup__button"
+              class="button popup__button popup__button_disabled"
+              disabled
             >
               Создать
             </button>
@@ -154,7 +153,7 @@
         <div class="popup__content">
           <button type="button" class="popup__close"></button>
           <h3 class="popup__title">Обновить аватар</h3>
-          <form class="popup__form" name="edit-avatar">
+          <form class="popup__form" name="edit-avatar" novalidate>
             <label class="popup__label">
               <input
                 type="url"
@@ -170,7 +169,8 @@
             </label>
             <button
               type="submit"
-              class="button popup__button"
+              class="button popup__button popup__button_disabled"
+              disabled
             >
               Сохранить
             </button>
